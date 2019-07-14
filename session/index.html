@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>セッション練習</title>
+	</head>
+	<body>
+		<h2>格納</h2>
+		<form action="./set.php" method="post">
+			<label>名：</label>
+			<input type="text" name="name">
+			<br>
+			<label>値：</label>
+			<input type="text" name="value">
+			<br>
+			<input type="submit" value="送信">
+		</form>
+		<h2>取得</h2>
+		<form action="./get.php" method="post">
+			<label>名：</label>
+			<input type="text" name="name">
+			<br>
+			<input type="submit" value="取得">
+		</form>
+		<h2>削除</h2>
+		<form action="./del.php" method="post">
+			<label>名：</label>
+			<input type="text" name="name">
+			<br>
+			<input type="submit" value="削除">
+		</form>
+		<h2>全削除</h2>
+		<form action="./del_all.php" method="post">
+			<input type="submit" value="全削除">
+		</form>
+		<h2>ファイル削除</h2>
+		<form action="./filedel.php" method="post">
+			<input type="submit" value="ファイル削除">
+		</form>
+	</body>
+</html>

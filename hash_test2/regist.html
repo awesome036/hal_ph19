@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>新規登録画面</title>
+	</head>
+	<body>
+		<form action="./regist_check.php" method="post">
+			<label>ログインID:</label>
+			<input type="text" name="login_id" placeholder="半角英数3~10文字" required>
+			<br>
+			<label>パスワード:</label>
+			<input type="password" name="password" placeholder="半角英数3~10文字" required>
+			<br>
+			<label>名前:</label>
+			<input type="text" name="name" placeholder="1~20文字" maxlength="20" required>
+			<br>
+			<input type="submit" value="登録">
+			<br>
+		</form>
+		<a href="./index.html">メニュー</a>
+	</body>
+</html>

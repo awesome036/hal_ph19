@@ -1,0 +1,8 @@
+#アップロード容量の制限
+php_value memory_limit 32M
+php_value post_max_size 24M
+php_value upload_max_filesize 8M
+
+#エラー非表示(本番環境用)
+php_value error_reporting -1
+php_flag  display_errors Off

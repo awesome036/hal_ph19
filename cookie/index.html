@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<title>クッキー取得＆送信</title>
+	</head>
+	<body>
+		<h2>クッキー送信</h2>
+		<form action="set.php" method="post">
+			<label>クッキー名：</label>
+			<input type="text" name="name">
+			<br>
+			<label>クッキー値：</label>
+			<input type="text" name="value">
+			<br>
+			<input type="submit" value="送信">
+		</form>
+		<h2>クッキー取得</h2>
+		<form action="get.php" method="post">
+			<label>クッキー名：</label>
+			<input type="text" name="name">
+			<br>
+			<input type="submit" value="取得">
+		</form>
+	</body>
+</html>
